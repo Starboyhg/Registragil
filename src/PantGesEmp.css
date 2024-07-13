@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+.ContenedorGesEmp {
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.TituloGesEmp {
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 20px;
+  padding-right: 545px;
+  padding-top: 30px;
+  /*padding-bottom: 20px; */
+}
+
+.ContGesEmp {
+  display: flex;
+  justify-content: center;
+}
+
+.ContenedorBusquedaEmp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  background-color: #eff6ff;
+  border: 1px solid rgba(0, 0, 0, 0.121);
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 430px;
+  height: 170px;
+  position: relative;
+}
+
+.EncabezadoBusEmp {
+  font-size: 20px;
+}
+
+.InputBuscarEmp {
+  border: 1px solid #88c7ff;
+  border-radius: 5px;
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.ContenedorBotonesEmp {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10px;
+  width: calc(100% - 20px);
+  left: 10px;
+}
+
+.btnBE {
+  background-color: #88c7ff;
+  border: 1px solid #88c7ff;
+  border-radius: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.btnBE:hover {
+  background-color: #88c7ffb7;
+}
+
+.izqEmp {
+  float: left;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+}
+
+.derEmp {
+  float: right;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+}
+
+.ContenedorDatosEmp {
+  justify-content: center;
+  background-color: #eff6ff;
+  border: 1px solid rgba(0, 0, 0, 0.121);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 900px;
+  position: relative;
+  padding: 10px;
+}
+
+.ContenedorNombreEmp {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width: 100%;
+}
+
+.ContenedorDatosExtra {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
+.Col-75 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Col-25 {
+  text-align: center;
+}
+
+.ContDir {
+  display: grid;
+  width: 100%;
+}
+
+.InputDir {
+  border: 1px solid #88c7ff;
+  border-radius: 20px;
+  width: 100%;
+  height: 10px;
+  font-size: 13px;
+  padding: 12px 20px;
+}
+
+.ContEmpContacto,
+.ContEmpPuesto {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+}
+
+.InputEmpContactoCorreo {
+  border: 1px solid #88c7ff;
+  border-radius: 20px;
+  width: 250px;
+  height: 10px;
+  font-size: 13px;
+  padding: 12px 20px;
+}
+
+.InputEmpContactoTelefono {
+  border: 1px solid #88c7ff;
+  border-radius: 20px;
+  width: 150px;
+  height: 10px;
+  font-size: 13px;
+  padding: 12px 20px;
+}
+
+.InputDep {
+  border: 1px solid #88c7ff;
+  border-radius: 20px;
+  width: 300px;
+  height: 10px;
+  font-size: 13px;
+  padding: 12px 20px;
+}
+
+.InputPermisos {
+  border: 1px solid #88c7ff;
+  border-radius: 20px;
+  width: 150px;
+  height: 10px;
+  font-size: 13px;
+  padding: 12px 20px;
+}
+
+.Espacio {
+  margin: 30px;
+}
+
+.ContMod {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  position: relative;
+  text-align: center;
+  /* margin-bottom: 60px; */
+}
+
+.ContenedorModal {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.InputNombreModal {
+  border: 1px solid #88c7ff;
+  border-radius: 20px;
+  width: 100%;
+  height: 10px;
+  font-size: 13px;
+  padding: 12px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.InputCorreoModal {
+  border: 1px solid #88c7ff;
+  border-radius: 20px;
+  width: 100%;
+  height: 10px;
+  font-size: 13px;
+  padding: 12px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.InputContraseña {
+  border: 1px solid #88c7ff;
+  border-radius: 20px;
+  height: 10px;
+  font-size: 13px;
+  padding: 12px 20px;
+}
+
+.colModal-40 {
+  text-align: center;
+}
+
+.colModal-60 {
+  display: block;
+  margin-bottom: 10px;
+  /* margin-top: 10px; */
+  /* flex-wrap: wrap; */
+}
+
+.FormGroupModal {
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.ContenedorBotonesEmpMod {
+  display: flex;
+  justify-content: space-between;
+  position: static;
+  bottom: 10px;
+  width: calc(100% - 20px);
+  left: 10px;
+  /* margin-top: 20px;
+    padding: 0 10px; */
+}
+
+.EspacioModal {
+  margin-top: 10px;
+}
+
+.EncabezadoModal {
+  font-size: 20px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.ContenedorNuevaCont {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
+.Col {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.labelNC {
+  margin-right: 10px;
+}
+
+@media (max-width: 1240px) { /* Responsivo */
+  .ContenedorGesEmp {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .TituloGesEmp{
+    padding-right: 0px;
+  }
+
+  .ContenedorBusquedaEmp {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .ContenedorDatosEmp {
+    width: 100%;
+    /* flex-direction: column; */
+  }
+  .ContenedorNombreEmp {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .InputNombre{
+    width: 100%;
+  }
+
+  .ContenedorDatosExtra {
+    flex-direction: column;
+  }
+
+  .InputEmpContactoCorreo, .InputEmpContactoTelefono{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .InputDep, .InputPermisos{
+    flex-direction: column;
+    width: 100%;;
+  }
+
+  .ContenedorNuevaCont {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,41 @@
+.form-label{
+    font-family: 'Literata', sans-serif !important;
+    /* font-size: 15px !important; */
+    font-weight: 600;
+    /* margin-bottom: 0.5rem; */
+}
+
+/* Media a partir de 1368 pixeles para el tamañode letra de los labels */
+@media (max-width: 1368px) {
+    .form-label{
+        font-size: 14px !important;
+    }
+
+    .form-control{
+        font-size: 14px !important;
+    }
+}
+
+/* Media a partir de 1230 pixeles para el tamañode letra de los labels */
+@media (max-width: 1230px) {
+    .form-label{
+        font-size: 12px !important;
+    }
+
+    .form-control{
+        font-size: 12px !important;
+    }
+}
+
+
+
+/* Media a partir de 1091pixeles para el tamañode letra de los labels */
+@media (max-width: 1091px) {
+    .form-label{
+        font-size: 11px !important;
+    }
+
+    .form-control{
+        font-size: 11px !important;
+    }
+}

@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+.ContenedorGesInv {
+    padding: 1px 16px;
+    max-height: 1000px;
+    min-height: min-content;
+    /* overflow-y: auto; */
+}
+
+.TituloGesInv {
+    font-family: "Livvic", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 20px;
+    padding-right: 580px;
+    padding-top: 30px;
+    /*padding-bottom: 20px; */
+}
+
+h5{
+    font-family: "Livvic", sans-serif;
+    margin: 20px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.ContGesInv {
+    display: flex;
+    justify-content: center;
+}
+
+.ContDaPer {
+    display: flex;
+    justify-content: center;
+    font-family: "Literata", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ContInfoEx {
+    display: flex;
+    justify-content: center;
+    font-family: "Literata", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ContenedorBusquedaInvitados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Livvic", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: #EFF6FF;
+    border: 1px solid rgba(0, 0, 0, 0.121);
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 430px;
+    height: 170px;
+    position: relative;
+}
+
+.EncabezadoBusInv{
+    font-size: 20px;
+}
+
+.ContenedorDatosPer {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    justify-content: center;
+    background-color: #E8F4FF;
+    border: 1px solid rgba(0, 0, 0, 0.121);
+    border-radius: 5px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    width: 900px;
+    position: relative;
+    padding: 10px;
+}
+
+/* .ContenedorBusquedaInvitados p {
+    margin-bottom: 10px;
+} */
+
+/* .ContEncabezadosInfoExtra {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+} */
+
+.EncabezadoInv{
+    font-family: "Livvic", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.ContenedorInfoExtra {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    position: relative;
+}
+
+.InputBuscarInvitado {
+    border: 1px solid #88C7FF;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.ContenedorBotones {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10px;
+    width: calc(100% - 20px);
+    left: 10px;
+}
+
+.btnBI {
+    background-color: #88C7FF;
+    border: 1px solid #88C7FF;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.btnBI:hover {
+    background-color: #88c7ffb7;
+}
+
+.izq{
+    float: left;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+}
+
+.der {
+    float: right;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.InputNombre {
+    border: 1px solid #88C7FF;
+    border-radius: 20px;
+    width: 200px;
+    height: 10px;
+    font-size: 13px;
+    padding: 12px 20px;
+}
+
+.InputEmpID {
+    border: 1px solid #88C7FF;
+    border-radius: 20px;
+    width: 300px;
+    height: 10px;
+    font-size: 13px;
+    padding: 12px 20px;
+}
+
+.InputCorreo {
+    border: 1px solid #88C7FF;
+    border-radius: 20px;
+    width: 250px;
+    height: 10px;
+    font-size: 13px;
+    padding: 12px 20px;
+}
+
+.InputTelefono {
+    border: 1px solid #88C7FF;
+    border-radius: 20px;
+    width: 150px;
+    height: 10px;
+    font-size: 13px;
+    padding: 12px 20px;
+}
+
+.InputTelefono.invalid {
+    border: 2px solid red;
+}
+
+.InputEmpID.invalid {
+    border: 2px solid red;
+}
+
+.InputInfoExtra.invalid {
+    border: 2px solid red;
+}
+
+.error-telefono, .error-empresa, .error-modelo, .error-numS, .error-cmodelo, .error-cplaca, .error-ccolor {
+    color: red;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+.Fotografia {
+    border: 3px solid #88C7FF;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+}
+
+.col-75 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.FormGroup {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.LabelInfoExtra {
+    display: block;
+    margin-bottom: 5px;
+    /* font-family: 'Livvic', sans-serif;   */
+    font-family: 'Literata', sans-serif;
+}
+
+.ContNombre {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 100%;
+}
+
+.ContEmpID, .ContContacto {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+}
+
+.col-25 {
+    text-align: center;
+}
+
+.ContenedorDis, .ContenedorAuto, .ContenedorAcom {
+    background-color: #E8F4FF;
+    border: 1px solid rgba(0, 0, 0, 0.121);
+    border-radius: 5px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 225px;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.InputInfoExtra {
+    border: 1px solid #88C7FF;
+    border-radius: 20px;
+    width: 100%;
+    height: 10px;
+    font-size: 13px;
+    padding: 12px 20px;
+  /* font-family: 'Livvic', sans-serif; */
+  font-family: 'Literata', sans-serif;
+}
+
+.RE1{
+    margin-left: -10%;
+    margin-right: 10%;
+}
+
+.RE11{
+    margin-left: 0%;
+    margin-right: 10%;
+}
+
+.RE2{
+    margin-left: 0%;
+    margin-right: 10%;
+}
+
+.RE22{
+    margin-left: 50%;
+    margin-right: 10%;
+}
+
+.RE3{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.RE33{
+    margin-left: 50%;
+    margin-right: 10%;
+}
+
+/* Media para reducir el margen izquierdo y derecho de los divs con la clase .col-33 cuando el tamaño de pantalla sea menor a 1364 pixeles */
+@media (max-width: 1364px) {
+    /* .ContenedorDatosPer {
+        width: 100%;
+    }
+
+    .ContenedorInfoExtra {
+        width: 100%;
+    }
+
+    .ContenedorDis, .ContenedorAuto, .ContenedorAcom {
+        width: 100%;
+    } */
+    div.col-33{
+        margin-left: 0;
+        margin-right: 0;
+        display: grid;
+        /* Alineamos el contenido del diplay en el centro */
+        justify-content: center;
+
+     }
+}
+
+
+@media (max-width: 1240px) {
+    .ContenedorGesInv {
+      flex-direction: column;
+      width: 100%;
+      overflow-y: auto;
+    }
+  
+    .TituloGesInv{
+      padding-right: 0px;
+    }
+
+    .ContDaPer{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .ContenedorDatosPer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .ContNombre{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ContNombre > div {
+        margin-bottom: 10px;
+    }
+
+    .ContEmpID{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ContContacto{
+        display: flex;
+        flex-direction: column;;
+    }
+
+    .InputEmpID{
+        width: 100%;
+    }
+
+    .InputCorreo, .InputTelefono{
+        width: 100%;
+    }
+
+    .col-75{
+        flex-direction: column;
+    }
+
+    .col-25{
+        flex-direction: column;
+    }
+
+    .ContInfoEx{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .ContenedorInfoExtra{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+}

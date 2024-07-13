@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900&display=swap");
+
+.BarraSuperiorForm  {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  overflow: hidden;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #0b1215;
+  position: static;
+}
+
+.BloqueForm  {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.IzquierdaForm  {
+  justify-content: flex-start;
+  margin-left: 5%;
+}
+
+.CentroForm  {
+  justify-content: center;
+  color: white;
+  font-family: "Livvic", sans-serif;
+}
+
+.DerechaForm  {
+  justify-content: flex-end;
+  font-size: 13px;
+  font-family: "Literata", serif;
+  margin-right: 110px;
+}
+
+.BloqueForm  a {
+  display: block;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.BloqueForm  a:hover {
+  background-color: #333;
+}
+
+.LogoForm {
+  height: 70px;
+  padding: 5px;
+}

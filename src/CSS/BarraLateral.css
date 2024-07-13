@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900&display=swap');
+
+ul.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #F0F8FF;
+  color: #0B1215;
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+  /* min-height: 100vh; */
+  /* max-height: 200vh; */
+  /* height: auto; */
+  overflow: auto;
+  /* box-shadow: 2px 0 4px 0 rgba(0, 0, 0, 0.2), 6px 0 20px 0 rgba(0, 0, 0, 0.19); */
+  transition: width 0.3s ease-in-out;
+}
+
+div.navContainer {
+  position: relative;
+  box-shadow: 2px 0 4px 0 rgba(0, 0, 0, 0.2), 6px 0 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #F0F8FF;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  /* left: 0; */
+  transition: width 0.3s ease-in-out;
+}
+
+.BarraLogo {
+  background-color: #0B1215;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  height: 50px;
+}
+
+.BarraLogo img {
+  width: 100px;
+}
+
+.Iconos {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  padding: 3px;
+  background-color: #C0DAFD;
+  margin-right: 20px;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.botonBarra {
+  margin: 5px;
+  margin-top: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Literata", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #F0F8FF;
+}
+
+.sidenav li a.active {
+  border-radius: 4px;
+  width: 100%;
+  background-color: rgba(136, 199, 255, 0.5);
+}
+
+.sidenav li a.active .Iconos {
+  background-color: #F0F8FF;
+}
+
+.encabezados {
+  font-family: "Livvic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 16px;
+  padding-top: 6px;
+}
+
+ul.sidenav li a {
+  display: flex;
+  align-items: center;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+ul.sidenav .botonBarra:hover:not(.active) {
+  background-color: rgba(136, 199, 255, 0.5);
+}
+
+.botonBarra:hover .Iconos {
+  background-color: #F0F8FF;
+}
+
+@media screen and (max-width: 900px) {
+  ul.sidenav {
+    width: 78px;
+    height: 100%;
+    /* top: 0; */
+  }
+
+  div.navContainer{
+    width: 78px;
+    height: 100%;
+    /* top: 0; */
+  }
+
+  ul.sidenav li a {
+    justify-content: center;
+  }
+
+  ul.sidenav li a span {
+    display: none;
+  }
+
+  .Iconos {
+    margin-right: 0;
+  }
+
+  .encabezados {
+    display: none;
+  }
+
+  .BarraLogo img {
+    display: none;
+  }
+}

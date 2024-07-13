@@ -1,0 +1,317 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900&display=swap");
+
+Button.botonListInv {
+  background-color: #88C7FF;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px rgba(58, 58, 58, 0.1);
+  color: #0B1215;
+  width: 45%;
+  height: 100%;
+  margin-top: 10px;
+  transition: width 0.3s ease-in-out;
+
+}
+
+Button.botonListInv:hover {
+  background-color: #76b5ff;
+  color: #0B1215;
+}
+
+.iconListInv {
+  min-width: 25px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6; /* Ajusta la transparencia aquí */
+}
+
+.tituloJunta{
+    text-align: center;
+    font-family: 'Livvic', sans-serif !important;
+    font-size: 3.5lvh;
+    margin-top: -2%;
+}
+
+.tituloNewInv{
+  text-align: center;
+  font-family: 'Livvic', sans-serif !important;
+  font-size: 2.5lvh;
+}
+
+.parrafoModal{
+  /* text-align: center; */
+  text-align: justify;
+  font-family: 'Livvic', sans-serif !important;
+  font-size: 1.8lvh;
+
+}
+
+.custom-modal .paddingBody{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* Borde de la tabla */
+.custom-modal .header-box, .custom-modal .content-box {
+    /* background-color: #e9eef2; */
+    /* background-color: #88C7FF; */
+    background-color: #0b121521;
+    box-shadow: 0 10px 10px rgba(58, 58, 58, 0.1);
+    border-radius: 10px;
+    padding: 1px;
+    margin-bottom: 20px;
+    /* background-color: rgba(136, 199, 255, 0.5); */
+    /* border-color: #88C7FF; */
+    font-family: 'Livvic', sans-serif !important;
+  }
+
+  /* .custom-modal .table-box {
+    background-color: #f9fbfc;
+    border-radius: 10px;
+    padding: 10px;
+  } */
+
+
+  /* Diseño de la tabla */
+  .custom-modal .table th {
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #E8F4FF;
+    font-size: larger;
+    color: #0B1215;
+    font-weight: 600;
+    /* font-weight: bold; */
+  }
+
+  .custom-modal .table td{
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #E8F4FF;
+    font-size: 14px;
+    /* Negritas en los encabezados de la tabla */
+
+
+  }
+
+  /* .custom-modal .table td .centrarVertical{
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+  } */
+
+  .custom-modal .table-responsive {
+    max-height: 200px;
+    overflow-y: auto;
+    border-radius: 10px;
+  }
+
+  .custom-modal .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .custom-modal .content-box .form-check-input, .custom-modal .content-box .sombraBtn{
+    /* display: flex; */
+  /* align-items: center; */
+    /* margin-bottom: 4px; */
+    /* padding-bottom: 2px; */
+    box-shadow: 0 10px 10px rgba(58, 58, 58, 0.1);
+  }
+
+  .custom-modal .form-control {
+    border-color: #88C7FF;
+    /* border: none; */
+    border-width: 2px;
+    background-color: #E8F4FF;
+    box-shadow: 0 10px 10px rgba(58, 58, 58, 0.1);
+    /* background-color: #F0F8FF; */
+    /* Ajustamos transparencia del borde al 50% */
+    border-color: rgba(136, 199, 255, 0.5);
+    padding: 0.2rem;
+    padding-left: 0.5rem;
+    /* margin-top: 0.5rem; */
+    font-family: 'Livvic', sans-serif !important;
+    font-size: 14.5px;
+  }
+
+  .custom-modal .form-label{
+    font-family: 'Livvic', sans-serif !important;
+    font-size: 14.5px;
+    font-weight: 500;
+    /* margin-bottom: 0.5rem; */
+  }
+
+  .custom-modal .icon-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    color: #5c9ded;
+  }
+
+  .custom-modal .icon-button:hover {
+    color: #4a8ad4;
+  }
+
+  .custom-modal .input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .custom-modal .input-group .form-control {
+    flex: 3;
+    /* margin-right: 10px; */
+    /* margin-left: 10px; */
+    /* border-radius: 10px; */
+  }
+
+  .custom-modal .input-group select {
+    flex: 1;
+  }
+
+  .custom-modal .table-col1 {
+    width: 25%;
+  }
+  .custom-modal .table-col2 {
+    width: 50%;
+  }
+
+  .custom-modal .table-col-small {
+    width: 25%;
+  }
+
+  .custom-modal .input-group .campCorreo {
+    width: 60%;
+    padding-left: 5px;
+  }
+
+  .custom-modal .input-group .campAcom {
+    width: 25%;
+  }
+
+  .custom-modal .input-group .campBoton {
+    width: 5%;
+    /* padding-top: 8px; */
+    margin-top: 19px;
+  }
+
+
+
+  .custom-modal .input-group .campBoton .tamBoton {
+    /*Reducimos el tamaño del botón*/
+    /* height: 10px; */
+
+    background-color: #88C7FF !important;
+    border: 1px solid #88C7FF !important;
+    color: #0B1215 !important;
+    padding: 0.1rem 6.3px !important;
+    vertical-align: middle;
+    box-shadow: 0 10px 10px rgba(58, 58, 58, 0.1);
+  }
+
+  .custom-modal .input-group .campBoton .tamBoton .imagenAgregar{
+    width: 15px;
+    height: 15px;
+    margin-top: -0.3rem;
+  }
+
+  /*Linea divisora*/
+  .custom-modal .lineaDivisora{
+    border-top: 1.5px solid #a0a0a0;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* media a partir de que la pantalla sea menor a 991 pixeles de ancho, cambiar el texto de la página principal que dice "No. de Acompañantes" */
+  /* campCorreo, campAcom y campBoton */
+  @media (max-width: 991px) {
+    .custom-modal .input-group .campCorreo {
+      width: 50%;
+    }
+    .custom-modal .input-group .campAcom {
+      width: 35%;
+    }
+    .custom-modal .input-group .campBoton {
+      width: 8%;
+    }
+  }
+
+  /* Otra mas menor a 496 piexeles */
+  /* @media (max-width: 496px) {
+    .custom-modal .input-group .campCorreo {
+      width: 45%;
+    }
+    .custom-modal .input-group .campAcom {
+      width: 40%;
+    }
+    .custom-modal .input-group .campBoton {
+      width: 8%;
+    }
+  } */
+
+  /* Media menor a 592 pixeles para el tamaño del iconListInv */
+  @media screen and (max-width: 592px) {
+    .iconListInv{
+        min-width: 20px;
+        margin-left: -5%;
+        margin-right: -5%;
+    }
+  }
+
+  /* Media menor a 500 pixeles para el tamaño del iconListInv */
+  @media screen and (max-width: 500px) {
+    .iconListInv{
+        min-width: 15px;
+        margin-left: -15%;
+        margin-right: -15%;
+    }
+  }
+
+  /* Media a partir de 400 pixeles para el tamaño del iconListInv */
+
+  @media screen and (max-width: 400px) {
+    .iconListInv{
+        min-width: 10px;
+        margin-left: -100%;
+        margin-right: -100%;
+    }
+  }
+
+  /* Media para el tamaño de table td y teble th menor a 1368 */
+  @media (max-width: 1368px) {
+    .custom-modal .table th {
+      font-size: 16px;
+    }
+
+    .custom-modal .table td{
+      font-size: 13px;
+    }
+  }
+
+  /* Media para el tamaño de table td y teble th menor a 1230 */
+  @media (max-width: 1230px) {
+    .custom-modal .table th {
+      font-size: 14px;
+    }
+
+    .custom-modal .table td{
+      font-size: 12px;
+    }
+  }
+
+  /* Media para el tamaño de table td y teble th menor a 1091 */
+  @media (max-width: 1091px) {
+    .custom-modal .table th {
+      font-size: 13px;
+    }
+
+    .custom-modal .table td{
+      font-size: 11px;
+    }
+  }

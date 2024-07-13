@@ -1,0 +1,54 @@
+/* PagInicio.css */
+
+#inicio {
+    background-color: #F0F8FF;
+    margin: 0;
+    padding: 8%;
+    overflow: hidden;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img-edificio {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+h1 {
+    font-family: "Livvic", sans-serif;
+}
+
+p {
+    font-family: "Literata", serif;
+}
+
+.boton {
+    background-color: #88C7FF !important;
+    border: 1px solid #88C7FF !important;
+    color: #0B1215 !important;
+    padding: 8px 16px !important;
+    align-content: right !important;
+    font-family: "Literata", serif !important;
+}
+
+.boton a {
+    color: #0B1215 !important;
+    text-decoration: none !important;
+}
+
+.boton:hover {
+    background-color: #6FA6E2 !important;
+    border-color: #6FA6E2 !important;
+}

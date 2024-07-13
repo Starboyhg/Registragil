@@ -1,0 +1,38 @@
+#tablaJuntas {
+  display:block;
+  grid-template-rows: 1fr;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.containerJunta{
+  /* display: grid;
+  grid-template-rows: 1fr;
+  padding-top: 4%;
+  padding-bottom: 4%; */
+  min-height: 500px;
+  max-height: 720px;
+  overflow-y: auto;
+}
+
+#perfil {
+  display: grid;
+  grid-template-rows: 1fr;
+  padding-top: 5%;
+  padding-bottom: 7%;
+}
+
+#FormInv {
+  display: grid;
+  grid-template-rows: 1fr;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.cont-junta {
+  padding: 5px;
+  /* margin: 15px; */
+  margin-top: 15px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+}

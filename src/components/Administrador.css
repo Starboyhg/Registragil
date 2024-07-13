@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900&display=swap");
+
+.card-datos {
+  background-color: #E8F4FF !important;
+  font-family: "Literata", serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  margin-top: 0;
+}
+
+.titulo {
+  font-family: "Livvic", sans-serif !important;
+  font-size: 25px !important;
+}
+
+.card-input {
+  background-color: #F0F8FF !important;
+  border: 1px solid #88C7FF !important;
+  border-radius: 6px;
+  color: #0B1215;
+}
+
+.card-foto {
+  border: 2px solid #88C7FF;
+}
+
+.boton {
+  background-color: #88C7FF !important;
+  border: 1px solid #88C7FF !important;
+  color: #0B1215 !important;
+  padding: 8px 16px !important;
+}
+
+.boton:hover {
+  background-color: #6FA6E2 !important;
+  border-color: #6FA6E2 !important;
+}
+
+.custom-modal .modal-content {
+  background-color: #F0F8FF;
+  color: #0B1215;
+}
+
+/*.custom-modal .modal-header,
+.custom-modal .modal-footer {
+    border: none;
+}*/
+
+.custom-modal .modal-title {
+  font-family: "Livvic", sans-serif;
+  font-weight: bold;
+}
+
+.custom-modal .modal-body {
+  font-family: "Literata", serif;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.input-eye {
+  display: none;
+}
+
+.form-control:focus ~ .input-eye,
+.form-control:not(:placeholder-shown) ~ .input-eye {
+  display: block;
+}
+
+@media (max-width: 576px) {
+  .card-datos,
+  .titulo {
+    margin-left: 10%;
+  }
+}
+

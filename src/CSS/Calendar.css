@@ -1,0 +1,401 @@
+.calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.8rem 0;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.calendar-grid-header {
+    display: contents;
+}
+
+.calendar-header-day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+    border-right: 1px solid rgba(0, 0, 0, 0.11);
+    background-color: rgba(136, 199, 255, 0.5);
+}
+
+.calendar-grid-body {
+    display: contents;
+}
+
+.calendar-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+    height: 6.25rem;
+    background-color: #ffffff;
+    border-right: 1px solid rgba(0, 0, 0, 0.11);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+    cursor: pointer;
+}
+
+.calendar-day.today,
+.calendar-week-day.today {
+    background-color: rgba(136, 199, 255, 0.2) !important;
+}
+
+.calendar-day:nth-child(7n) {
+    border-right: none;
+}
+
+.calendar-day.disabled {
+    background-color: #f0f0f0;
+    color: #b0b0b0;
+}
+
+.calendar-day .date {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.calendar-day .reunion {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+.text-ver-mas {
+    font-size: 0.78rem !important;
+    color: #4486c0 !important;
+    text-align: center !important;
+    margin-top: 0.2rem !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.calendar-day .text-ver-mas:hover {
+    color: #0256af !important;
+}
+
+.calendar-week-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    font-weight: bold;
+    background-color: rgba(136, 199, 255, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.calendar-week-day {
+    min-height: 68vh;
+    height: auto;
+    cursor: auto;
+    padding: 0;
+}
+
+.calendar-week-day .reunion {
+    cursor: pointer;
+    font-size: 0.79rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.clock{
+    font-size: 10.5px;
+}
+
+.calendar-day-view {
+    min-height: 73vh;
+    height: auto;
+    background-color: #ffffff;
+    display: block;
+}
+
+.calendar-day-header {
+    display: flex;
+    padding: 0.5rem;
+    font-weight: bold;
+    background-color: rgba(136, 199, 255, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.calendar-day-row {
+    display: flex;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.calendar-day-row-empty {
+    display: flex;
+    padding: 0.5rem 1rem;
+    cursor: auto;
+}
+
+.calendario-select {
+    height: 36px;
+    font-size: 0.7rem;
+    padding: 0 0.5rem;
+    background-color: #F0F8FF !important;
+    border: 1px solid #88C7FF !important;
+    border-radius: 6px;
+    color: #0B1215;
+}
+
+.boton-regresar {
+    background-color: transparent !important;
+    border: none !important;
+    color: #0B1215 !important;
+    padding: 0.3rem !important;
+}
+
+.boton-regresar:hover {
+    background-color: rgba(136, 199, 255, 0.5) !important;
+}
+
+.boton-detalles-juntas {
+    background-color: transparent !important;
+    font-size: 0.8rem !important;
+    border: none !important;
+    color: #4486c0 !important;
+    padding: 0 !important;
+}
+
+.boton-detalles-juntas:hover {
+    color: #003064 !important;
+}
+
+.status-circle {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.custom-modal h5{
+    padding-top: 0 !important;
+}
+
+@media (max-width: 1200px) {
+    .calendar-header h2 {
+        font-size: 1.6rem;
+    }
+
+    .calendar-day {
+        height: 5rem;
+        padding: 0.5rem;
+    }
+
+    .calendar-day .reunion {
+        font-size: 0.6rem;
+    }
+
+    .calendar-day-row {
+        font-size: 0.85rem;
+    }
+
+    .clock{
+        font-size: 8.7px;
+        margin-top: -3px;
+    }
+
+    .reunion .status-circle {
+        width: 0.3rem;
+        height: 0.3rem;
+        margin-right: 2px;
+    }
+
+    .status-circle {
+        width: 0.45rem;
+        height: 0.45rem;
+    }
+
+    .calendar-day .text-ver-mas {
+        font-size: 0.6rem !important;
+        margin-top: 0.1rem !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .calendar {
+        margin-left: -20%;
+    }
+
+    .calendar-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .calendar-day {
+        height: 4.5rem;
+        padding: 0.5rem;
+    }
+
+    .calendar-day .date {
+        font-size: 0.8rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .calendar-day .reunion {
+        font-size: 0.6rem;
+    }
+    
+    .calendar-day-row {
+        font-size: 0.8rem;
+    }
+
+    .clock{
+        font-size: 8.5px;
+    }
+
+    .reunion .status-circle {
+        width: 0.2rem;
+        height: 0.2rem;
+        margin-right: 2px;
+    }
+
+    .status-circle {
+        width: 0.4rem;
+        height: 0.4rem;
+    }
+    
+    .text-ver-mas {
+        font-size: 0.8rem !important;
+    }
+
+    .calendar-day .text-ver-mas {
+        font-size: 0.5rem !important;
+        margin-top: 0.1rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .calendar {
+        margin-left: -20%;
+    }
+
+    .calendar-header h2 {
+        font-size: 1.2rem;
+    }
+
+    .calendar-day {
+        height: 4.3rem;
+        padding: 0.5rem;
+    }
+
+    .calendar-header-day {
+        font-size: 0.7rem;
+        padding: 0.2rem;
+    }
+
+    .calendar-day .reunion {
+        font-size: 0.5rem;
+    }
+
+    .reunion .status-circle {
+        width: 0.2rem;
+        height: 0.2rem;
+        margin-right: 1px;
+    }
+
+    .status-circle {
+        width: 0.32rem;
+        height: 0.32rem;
+        margin-right: 5px;
+    }
+
+    .calendar-day .text-ver-mas {
+        font-size: 0.5rem !important;
+        margin-top: 0 !important;
+    }
+
+    .calendar-day-row {
+        font-size: 0.7rem;
+    }
+
+    .clock{
+        font-size: 7px;
+    }
+
+    .text-ver-mas {
+        font-size: 0.7rem !important;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .calendar {
+        padding: 0 !important;
+        padding-left: 35% !important;
+    }
+
+    .calendar-header,
+    .calendar-grid {
+        width: 110%;
+    }
+
+    .calendar-header h2 {
+        font-size: 1rem;
+    }
+
+    .calendar-day {
+        height: 4rem;
+        padding: 0.3rem;
+    }
+
+    .calendar-header-day {
+        font-size: 0.6rem;
+        padding: 0.1rem;
+    }
+
+    .calendar-day .date {
+        font-size: 0.7rem;
+    }
+
+    .calendar-day .reunion {
+        font-size: 0.45rem;
+    }
+
+    .calendar-day-row {
+        font-size: 0.6rem;
+    }
+
+    .clock{
+        font-size: 6px;
+    }
+
+    .reunion .status-circle {
+        width: 0.2rem;
+        height: 0.2rem;
+        margin-right: 2px;
+    }
+
+    .status-circle {
+        width: 0.3rem;
+        height: 0.3rem;
+        margin-right: 5px;
+    }
+
+    .text-ver-mas {
+        font-size: 0.6rem !important;
+    }
+
+    .reuniones .text-ver-mas {
+        font-size: 0.45rem !important;
+        margin-top: 0.1rem !important;
+    }
+}

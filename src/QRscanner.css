@@ -1,0 +1,47 @@
+#reader{
+    margin: 35px;
+    width: 250px; 
+    height: 250px;
+    background-color: #E8F4FF !important;
+    font-family: "Literata", serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    margin-top: 0;
+    transition: width 0.3s ease-in-out;
+  }
+
+  .App{
+    text-align: left;
+  }
+  
+  #FormInv{
+    margin: 10px;
+
+  }
+
+  /* Media para disminui el tamaño del QR con pantalla menos a 1360 pixeles de ancho */
+  @media (max-width: 1360px) {
+    #reader{
+      width: 200px; 
+      height: 200px;
+      margin-bottom: 12%;
+    }
+  }
+
+
+  /* A partir de 1155 */
+  @media (max-width: 1154px) {
+    #reader{
+      width: 150px; 
+      height: 150px;
+      margin-bottom: 20%;
+    }
+  }
+
+  /* A partir de 767 */
+  @media (max-width: 767px) {
+    #reader{
+      width: 150px; 
+      height: 150px;
+      margin-bottom: 12%;
+    }
+  }

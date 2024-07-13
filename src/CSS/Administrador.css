@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900&display=swap");
+
+.mainContainer {
+  /* display: flex; */
+  justify-content: center;
+  /* min-height: 700px;
+  max-height: 1200px; */
+  align-items: center;
+  overflow-y: auto;
+  background-color: #F0F8FF;
+  /* width: 100%; */
+}
+
+.card-datos {
+  border-color: #0b121511;
+  border: 2px solid rgba(11, 17, 20, 0.075);
+  background-color: #E8F4FF !important;
+  font-family: "Literata", serif;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 0;
+}
+
+.titulo {
+  font-family: "Livvic", sans-serif !important;
+  font-size: 25px !important;
+}
+
+.card-input {
+  background-color: #F0F8FF !important;
+  border: 1px solid #88C7FF !important;
+  border-radius: 6px;
+  color: #0B1215;
+}
+
+.card-foto {
+  box-shadow: none !important;
+  border: 3.5px solid #88c7ff9f !important;
+}
+
+.boton {
+  background-color: #88C7FF !important;
+  border: none;
+  box-shadow: 0 10px 15px rgba(58, 58, 58, 0.1);
+  border: 1px solid #88C7FF !important;
+  color: #0B1215 !important;
+  padding: 8px 16px !important;
+}
+
+.boton:hover {
+  background-color: #6FA6E2 !important;
+  border-color: #6FA6E2 !important;
+}
+
+.custom-modal .modal-content {
+  background-color: #F0F8FF;
+  color: #0B1215;
+}
+
+/*.custom-modal .modal-header,
+.custom-modal .modal-footer {
+    border: none;
+}*/
+
+.custom-modal .modal-title {
+  font-family: "Livvic", sans-serif;
+  font-weight: bold;
+}
+
+.custom-modal .modal-body {
+  font-family: "Literata", serif;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.input-eye {
+  display: none;
+}
+
+.form-control:focus ~ .input-eye,
+.form-control:not(:placeholder-shown) ~ .input-eye {
+  display: block;
+}
+
+@media (max-width: 576px) {
+  .card-datos,
+  .titulo {
+    margin-left: 10%;
+  }
+}
+
+.body{
+  background-color: #F0F8FF;
+
+}
+
+.espacio{
+  padding-top: 50px;
+  margin-bottom: 50px;
+  background-color: #F0F8FF;
+}
+
+.efooter{
+  
+  margin-bottom: 135px;
+  background-color: #F0F8FF;
+  
+
+}
+
+.efooterp {
+
+margin-bottom: 50px;
+
+}
